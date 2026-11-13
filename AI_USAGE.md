@@ -1,20 +1,30 @@
-# AI Usage Disclosure
+AI Usage Disclosure
 
-AI tools are allowed. We want to know **how** you used them, because using them well is a
-skill. Honest answers are never held against you. Discovering undisclosed use is.
+Tools Used
 
-## Tools used
-_e.g. Claude, Cursor, Copilot, ChatGPT, or "none"_
+- Google Antigravity (Claude Sonnet 4.6 and Gemini 3.8 Flash).
 
-## What I used them for
-_e.g. "scaffolded the FastAPI receiver", "explained Temporal activity retries", "wrote the first
-draft of the phone-normalisation tests"_
+How AI Tools Were Used
 
-## What I wrote or decided myself
-_The parts that are your own thinking: design, data model, edge-case handling..._
+AI tools were used as development assistance during the project, primarily for:
+- Understanding the existing repository structure and assignment specifications.
+- Exploring Python implementation approaches and edge cases.
+- Assisting with selected test-case scaffolding and input validation patterns.
+- Reviewing implementation details and identifying potential issues during development.
+My Contributions
 
-## Where the AI was wrong or unhelpful
-_At least one example of output you rejected or had to fix, and how you noticed._
+I was responsible for the overall implementation and technical decisions, including:
+- Designing the SQLite database structure and interaction ledger.
+- Implementing lead and event ingestion, deduplication, and orphan recovery.
+- Developing the encryption and phone-hashing mechanisms.
+- Defining reporting logic, bucket calculations, and timezone handling.
+- Debugging implementation issues and refining the code based on test results.
+Testing and Verification
 
-## How I verified AI-generated code
-_Tests, manual runs, reading it line by line..._
+I verified the implementation through:
+- A 123-test automated test suite covering validation, ingestion, security, reporting, and idempotency.
+- End-to-end pipeline execution using multiple synthetic data seeds.
+- Manual review of generated reports, database behavior, and error handling.
+- Code review to check implementation correctness and remove unnecessary complexity.
+
+AI-assisted suggestions were reviewed, adapted, or corrected where necessary. The final implementation and submission decisions were verified against the assignment requirements.
